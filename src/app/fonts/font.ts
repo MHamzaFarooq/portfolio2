@@ -1,23 +1,13 @@
 import localFont from "next/font/local";
 
 export const matter = localFont({
-  src: [
-    {
-      path: "./Matter-Light.ttf",
-      weight: "300",
-      style: "normal",
-    },
-  ],
+  src: "./Matter-Light.ttf",
   variable: "--font-matter",
+  display: "swap",
 });
 
 export const retail = localFont({
-  src: [
-    {
-      path: "./Retail-Variable.OTF",
-      weight: "300",
-      style: "normal",
-    },
-  ],
+  src: "./Retail-Variable.ttf",
   variable: "--font-retail",
+  display: "swap",
 });
